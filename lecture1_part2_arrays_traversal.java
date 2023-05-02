@@ -1,4 +1,4 @@
-public class lecture2_arrays_traversal {
+public class lecture1_part2_arrays_traversal {
     public static void main(String[] args) {
         int[] a = {10, 20, 30, 40, 50, 60};
         System.out.println(a[0]);
