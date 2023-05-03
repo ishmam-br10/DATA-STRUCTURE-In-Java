@@ -1,4 +1,5 @@
 public class lecture2_rightrotate{
+    //মডিফাই করা লাগবে 
     public static void main(String[] args) {
         int[] source = {10, 20, 30, 40, 50};
         int k = 3;
