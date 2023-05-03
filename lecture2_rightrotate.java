@@ -1,5 +1,5 @@
 public class lecture2_rightrotate{
-    //মডিফাই করা লাগবে 
+    //done modified 
     public static void main(String[] args) {
         int[] source = {10, 20, 30, 40, 50};
         int k = 3;
@@ -22,7 +22,8 @@ public class lecture2_rightrotate{
         
     }
     public static void print_array(int[] y) {
-        System.out.println("Address of array Y: "+ y);
+        System.out.println("Address of the source array: "+ y);
+        System.out.println("New right rotated array");
         for(int value: y){
             System.out.println(value);
         }
