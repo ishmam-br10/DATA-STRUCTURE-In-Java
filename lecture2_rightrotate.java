@@ -9,11 +9,13 @@ public class lecture2_rightrotate{
     }
     public static void rightRotate(int[] s,int shift) {
         int[] temp = new int[shift];
-        for(int i = s.length-1, j = temp.length-1; i >=shift;i--, j--){
-            temp[j] = s[i];
-            s[i] = s[i - shift];
+        for(int i = s.length-1, j = temp.length; i >=shift-1;i--, j--){
+            temp[j-1] = s[i];
+            if(i-shift>=0){
+                s[i] = s[i - shift];
+            }
         }
-        print_array(temp);
+        // print_array(temp);
         for(int mew = 0; mew < temp.length; mew++){
             s[mew] = temp[mew];
         }
