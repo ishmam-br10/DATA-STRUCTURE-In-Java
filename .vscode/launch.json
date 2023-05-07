@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lecture3_introduction_to_circular_array",
+            "request": "launch",
+            "mainClass": "lecture3_introduction_to_circular_array",
+            "projectName": "BRACu CSE220 DATA STRUCTURE _4e797832"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
