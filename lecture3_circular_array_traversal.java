@@ -16,3 +16,7 @@ public class lecture3_circular_array_traversal {
         }
     }
 }
+//     Thumb rule 2
+// Whenever you icreament the index of a circular array,
+// always mod the increamented value with the circular
+// array's length.

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lecture3_reverse_printing_a_circular_array",
+            "request": "launch",
+            "mainClass": "lecture3_reverse_printing_a_circular_array",
+            "projectName": "BRACu CSE220 DATA STRUCTURE _4e797832"
+        },
+        {
+            "type": "java",
             "name": "lecture3_circular_array_traversal",
             "request": "launch",
             "mainClass": "lecture3_circular_array_traversal",
