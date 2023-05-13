@@ -12,5 +12,14 @@ public class lecture4_basic_linked_list_manipulation_part1 {
         // Node n1 = new Node("10", n2);
         // assigning the head reference to the list
         head = n1;
+        for(Node n = head; n!= null; n = n.next){
+            // do something
+        }
+        // Node n = head;
+        // while(n!=null){
+        //     //do something
+        //     n = n.next;
+        // }
     }
+  
 }
