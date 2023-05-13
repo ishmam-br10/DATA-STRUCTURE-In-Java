@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lecture4_basic_linked_list_manipulation_part1",
+            "request": "launch",
+            "mainClass": "lecture4_basic_linked_list_manipulation_part1",
+            "projectName": "BRACu CSE220 DATA STRUCTURE _4e797832"
+        },
+        {
+            "type": "java",
             "name": "lecture3_resizing_circular_array",
             "request": "launch",
             "mainClass": "lecture3_resizing_circular_array",
